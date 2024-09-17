@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule an Appointment</title>
+    <link rel="stylesheet" href="css/bookingstyle.css">
+</head>
+
+<body>
+    <h1>Book an Appointment</h1>
+    <form action="#" method="get">
+    <div class="form-row">
+  <section> 
+    <style>
+        html, body {
+        height: 100%;
+        margin: 0;
+        }
+        body {
+        background-image: url(css/Style-and-images/black-white-perspective-checkered-background-260nw-1484152832.webp);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        }
+        </style>
+  </section>      
+
+    <label>
+    First-Name:
+    <input type="text" name="First-Name" required placeholder="First-Name">
+    </label>
+</div> 
+<div class="form-row">
+    <label>
+    Last-Name:
+    <input type="text" name="Last-Name" required placeholder="Last-Name">
+    </label>
+    
+</div>
+    <div class="form-row">
+        <label>
+   Email:
+    <input type="email" name="Email" required placeholder="Example@google.com">
+    </label>
+</div>
+<div>
+<label>
+    Phone Number:
+     <input type="tel" name="phone" required placeholder="000-000-0000">
+     </label>
+     <div class="form-row">
+        <label>
+<textarea name="Message"></textarea>
+</label>
+     </div>
+     <div class="form-row">
+<label>
+    Gender:
+    <select name="Gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="Other">Other</option>
+    <option value="do-not-disclose">Do-Not-Disclose</option>
+</select>
+</label>
+     </div>
+     <div class="form-row">
+<fieldset>
+    <legend>Topic</legend>
+    <label>
+    <input type="radio" name="topic" value="Html">
+    Haircut
+</label>
+<label>
+    <input type="radio" name="topic" value="Javascript">
+    Tapers
+</label>
+    <label>
+    <input type="radio" name="topic" value="Css">
+    Haircut & Beard Trim
+</label>
+<label>
+    <input type="radio" name="topic" value="Css">
+    Beard Trim
+</label>
+</fieldset>
+     </div>
+     <div class="form-row">
+<fieldset>
+<legend>Request</legend>
+<label> 
+    <input type="checkbox" name="Advice" checked />
+    Morning
+</label>
+<label> 
+    <input type="checkbox" name="Information">
+    Afternoon
+</label>
+<label> 
+    <input type="checkbox" name="motivation">
+    Evening
+</label>
+
+</fieldset>
+
+     </div>
+     <div class="form-row">
+<label>
+    Urgency (0-10)
+    <input type="range" min="0" max="10" name="Urgency" value="1">
+    
+</label>
+
+     </div>
+ <div class="form-row">
+ <button type="submit">Send</button>
+<button type="reset">Clear</button>
+ </div>
+
+</form>
+</body>
+</html>
