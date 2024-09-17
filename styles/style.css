@@ -1,0 +1,8 @@
+body { background-color: bisque;
+    background-image: url('images/black-white-perspective-checkered-background-260nw-1484152832.webp');
+    background-size: cover; }
+    .blacktxt {
+        text-decoration: black;}
+    h1 { text-decoration-color: red;}
+    ul { text-align: center;}
+    img {width: 100%;}
