@@ -1,5 +1,5 @@
 body { background-color: bisque;
-    background-image: url('images/black-white-perspective-checkered-background-260nw-1484152832.webp');
+  
     background-size: cover; }
     .blacktxt {
         text-decoration: black;}
@@ -9,8 +9,12 @@ body { background-color: bisque;
 
     p {
         border: 3px solid black;
+        text-size-adjust: 10px;
     }
     ul {
         list-style-type: square; 
         text-align: center;
     }
+.carosel{
+    max-width: 50%;
+}
