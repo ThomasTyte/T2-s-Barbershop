@@ -7,24 +7,12 @@ body,html {
 }
     
 
-h1 {    
-        text-decoration-color: red;
-    
+.headingtext { 
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border:  3px solid black;
+
 }
 
-   
-    
-    img {    width: 100%;
-
-    }
-
-    p {     border: 3px solid black;
-            text-size-adjust: 10px;
-    }
-
-    ul {    list-style-type: none; 
-            text-align: center;           
-    }
 .footer-item { 
          color: black;
          text-decoration: none;
@@ -36,8 +24,4 @@ h1 {
         background-color: rgb(252, 217, 173);
         padding-top: 30px;
         padding-bottom: 30px;
-}
-
-.youtubevideo {
-        background-color: black;
 }
