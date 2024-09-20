@@ -5,7 +5,12 @@ body,html {
         font-family: Arial, Helvetica, sans-serif;
         height: 100%;
 }
-    
+
+h2 { 
+        text-align: center;
+        color: darkslategray;
+        
+}
 
 .headingtext { 
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
