@@ -6,6 +6,13 @@ body,html {
         height: 100%;
 }
 
+h1   {  
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: dimgray;
+        text-align: center;
+
+}
+
 h2 { 
         text-align: center;
         color: darkslategray;
@@ -29,4 +36,8 @@ h2 {
         background-color: rgb(252, 217, 173);
         padding-top: 30px;
         padding-bottom: 30px;
+}
+.basicinfo   {
+text-align: center;
+color: dimgray;
 }

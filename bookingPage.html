@@ -9,52 +9,55 @@
 
 <body>
     <h1>Book an Appointment</h1>
-    <form action="#" method="get">
-    <div class="form-row">
-  <section> 
 
- 
-  </section>      
 
-    <label>
-    First-Name:
-    <input type="text" name="First-Name" required placeholder="First-Name">
-    </label>
-</div> 
-<div class="form-row">
-    <label>
-    Last-Name:
-    <input type="text" name="Last-Name" required placeholder="Last-Name">
-    </label>
-    
-</div>
-    <div class="form-row">
+<form action="mailto:tom_tyte@hotmail.com" method="get">
+    <section class="container">
+        <div class="form-row">
+            <div class="basicinfo">
+                <label>
+                    First-Name:
+                    <input type="text" name="First-Name" required placeholder="First-Name">
+                </label>
+            </div>
+        <div class="form-row">
+            <div class="basicinfo">
+                <label>
+                     Last-Name:
+                     <input type="text" name="Last-Name" required placeholder="Last-Name">
+                </label>
+             </div>
+        <div class="form-row">
+            <div class="basicinfo">
+                <label>
+                    Email:
+                    <input type="email" name="Email" required placeholder="Example@google.com">
+                </label>
+            </div>
+        <div class="form-row">
+            <div class="basicinfo">
+                 <label>
+                    Phone Number:
+                    <input type="tel" name="phone" required placeholder="000-000-0000">
+                </label>
+    </section>
+
+        <div class="form-row">
+         <label>
+            <textarea name="Message"></textarea>
+        </label>
+        </div>
+        <div class="form-row">
         <label>
-   Email:
-    <input type="email" name="Email" required placeholder="Example@google.com">
-    </label>
-</div>
-<div>
-<label>
-    Phone Number:
-     <input type="tel" name="phone" required placeholder="000-000-0000">
-     </label>
-     <div class="form-row">
-        <label>
-<textarea name="Message"></textarea>
-</label>
-     </div>
-     <div class="form-row">
-<label>
-    Gender:
-    <select name="Gender">
-    <option value="Male">Male</option>
-    <option value="Female">Female</option>
-    <option value="Other">Other</option>
-    <option value="do-not-disclose">Do-Not-Disclose</option>
-</select>
-</label>
-     </div>
+            Gender:
+        <select name="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+            <option value="do-not-disclose">Do-Not-Disclose</option>
+        </select>
+        </label>
+        </div>
      <div class="form-row">
 <fieldset>
     <legend>Topic</legend>
@@ -78,23 +81,22 @@
      </div>
      <div class="form-row">
 <fieldset>
-<legend>Request</legend>
-<label> 
+    <legend>Request</legend>
+        <label> 
     <input type="checkbox" name="Advice" checked />
     Morning
-</label>
-<label> 
+        </label>
+        <label> 
     <input type="checkbox" name="Information">
     Afternoon
-</label>
-<label> 
+        </label>
+        <label> 
     <input type="checkbox" name="motivation">
     Evening
-</label>
+        </label>
 
 </fieldset>
 
-     </div>
      <div class="form-row">
 <label>
     Urgency (0-10)
