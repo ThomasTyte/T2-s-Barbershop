@@ -41,3 +41,7 @@ h2 {
 text-align: center;
 color: dimgray;
 }
+
+.products   {
+       width: min-content;
+}
