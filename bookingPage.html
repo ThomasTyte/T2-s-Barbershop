@@ -23,7 +23,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="./bookingPage.html">Booking</a>
@@ -74,96 +74,98 @@
   
         <div class="form-row">
             <div class="basicinfo">
-            <label>
-            <textarea name="Message">Comments</textarea>
-            </label>
-        </div>
-</section>
-
-<section>
-
-        <div class="form-row">
-            <div class="basicinfo">
-                <label>
-                 Gender:
-                <select name="Gender">
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-                <option value="Other">Other</option>
-                <option value="do-not-disclose">Do-Not-Disclose</option>
-                </select>
-                </label>
+              <label>
+                <textarea name="Message">Comments</textarea>
+              </label>
             </div>
         </div>
 </section>
 
 <section>
+ <div class="form-row">
+   <div class="basicinfo">
+      <label>
+        Gender:
+        <select name="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+        <option value="do-not-disclose">Do-Not-Disclose</option>
+        </select>
+      </label>
+    </div>
+  </div>
+</section>
 
-        <div class="form-row">
-            <div class="basicinfo">
-        <fieldset>
-            <legend>Topic</legend>
-            <label>
+<section>
+
+  <div class="form-row">
+    <div class="basicinfo">
+      <fieldset>
+        <legend>Topic</legend>
+          <label>
             <input type="radio" name="topic" value="Html">
-        Haircut
-        </label>
-        <label>
+             Haircut
+          </label>
+          <label>
             <input type="radio" name="topic" value="Javascript">
-        Tapers
-        </label>
-        <label>
+            Tapers
+          </label>
+          <label>
             <input type="radio" name="topic" value="Css">
-        Haircut & Beard Trim
-        </label>
-        <label>
-        <input type="radio" name="topic" value="Css">
-        Beard Trim
-        </label>
-        </fieldset>
-        </div>
+            Haircut & Beard Trim
+          </label>
+          <label>
+            <input type="radio" name="topic" value="Css">
+             Beard Trim
+          </label>
+      </fieldset>
+    </div>
+  </div>
 
 </section>
 
 <section>
 
     <div class="form-row">
-        <div class="basicinfo">
-            <fieldset>
-            <legend>Appointment Time</legend>
+      <div class="basicinfo">
+        <fieldset>
+          <legend>Appointment Time</legend>
             <label> 
             <input type="checkbox" name="Advice" checked />
-            Morning
+             Morning
             </label>
             <label> 
             <input type="checkbox" name="Information">
-            Afternoon
+             Afternoon
             </label>
             <label> 
-            <input type="checkbox" name="motivation">
-            Evening
+             <input type="checkbox" name="motivation">
+              Evening
             </label>
-            </fieldset>
-        </div>
+        </fieldset>
+      </div>
+    </div>
 </section>
 
 <section>
-
-        <div class="form-row">
-            <div class="basicinfo">
-                <label>
-                    Urgency (0-10)
-                        <input type="range" min="0" max="10" name="Urgency" value="1">
-                </label>
+  
+  <div class="form-row">
+    <div class="basicinfo">
+      <label>
+        Urgency (0-10)
+        <input type="range" min="0" max="10" name="Urgency" value="1">
+      </label>
 
 </section>
 
 <section>
    
     <div class="form-row">
-        <div class="basicinfo">
-            <button type="submit">Send</button>
-            <button type="reset">Clear</button>
-        </div>
+      <div class="basicinfo">
+        <button type="submit">Send</button>
+          <button type="reset">Clear</button>
+      </div>
     </div>
 </section>
 </form>
