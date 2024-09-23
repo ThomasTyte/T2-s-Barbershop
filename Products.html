@@ -7,163 +7,154 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
-    
-    <header class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">T2's Barbershop</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./bookingPage.html">Booking</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./Products.html">Products</a>
-                    </li>
-                  </ul>
-                </div>
+
+<body>   
+  <header class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">T2's Barbershop</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./bookingPage.html">Booking</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Products.html">Products</a>
+                  </li>
+                </ul>
               </div>
-            </nav>
-          </div>
+            </div>
+          </nav>
         </div>
+      </div>
+  
+
+  </header>
+       
+
+  <main class="container-fluid">
+    <form method="get" action="index.html">
+      <section>
+        <div class="container">
+                <div class="row mb-5">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="products">
+                          <img src="./images/products/blackshampoo.jpg" alt="">
+                          <p>Shampoo 2 Pack</p>
+                          <input  type="number" class="form-control" name="input1" placeholder="0">
+                        </div>
+                    </div>
     
-
-
-        <h1>Products for sale</h1>
-
-
-<section>
-    <div class="container">
-        <form action="mailto:tom_tyte@hotmail.com" method="get">
-            <div class="row">
-                <div class="col">
-                    <div class="products">
-                        <img src="./images/products/blackshampoo.jpg" alt="">
-                             <p>Black and White Shampoo</p>
-                                <input  type="number" class="form-control" id="input1" placeholder="0">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="products">
+                          <img src="./images/products/orangeshampooo.jpg" alt="">
+                          <p>Opticare Matrix</p>
+                          <input type="number" class="form-control" name="Opticare" placeholder="0">
+                        </div>
                     </div>
-                </div>
-
-                <div class="col">
-                    <div class="products">
-                        <img src="./images/products/orangeshampooo.jpg" alt="">
-                        <p>Orange and Orange Shampoo</p>
-                        <input type="number" class="form-control" id="input1" placeholder="0">
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="products">
+    
+                    <div class="col-xs-12 col-md-4">
+                      <div class="products">
                         <img src="./images/products/redshampoo.jpg" alt="">
-                            <p>Red and White Shampoo</p>
-                                <input type="number" class="form-control" id="input1" placeholder="0">
-
+                        <p>Keratin Smooth</p>
+                        <input type="number" class="form-control" name="Keratin" placeholder="0">
+                      </div>
                     </div>
+                </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="row mb-5">
+            
+            <div class="col">
+                <div class="products">
+                  <img src="./images/products/powder.jpg" alt="">
+                  <p>Styling Powder</p>
+                  <input  type="number" class="form-control" name="StyingPowder" placeholder="0">
                 </div>
             </div>
-        </form>
-    </div>
-</section>
-
-<section>
-  <div class="container">
-      <form action="mailto:tom_tyte@hotmail.com" method="get">
-          <div class="row">
-              <div class="col">
-                  <div class="products">
-                      <img src="./images/products/powder.jpg" alt="">
-                           <p>Styling Powder</p>
-                              <input  type="number" class="form-control" id="input1" placeholder="0">
-                  </div>
-              </div>
-
-              <div class="col">
-                  <div class="products">
-                      <img src="./images/products/gel.jpg" alt="">
-                      <p>Styling Gel</p>
-                      <input type="number" class="form-control" id="input1" placeholder="0">
-                  </div>
-              </div>
-
-              <div class="col">
-                  <div class="products">
-                      <img src="./images/products/pomade.jpg" alt="">
-                          <p>Styling Pomade</p>
-                              <input type="number" class="form-control" id="input1" placeholder="0">
-
-                  </div>
-              </div>
+      
+            <div class="col">
+                <div class="products">
+                  <img src="./images/products/gel.jpg" alt="">
+                  <p>Styling Gel</p>
+                  <input type="number" class="form-control" name="Gel" placeholder="0">
+                </div>
+            </div>
+      
+            <div class="col">
+                <div class="products">
+                  <img src="./images/products/pomade.jpg" alt="">
+                  <p>Styling Pomade</p>
+                  <input type="number" class="form-control" name="Pomade" placeholder="0">
+                </div>
+            </div>
           </div>
-      </form>
-  </div>
-</section>
-
-<section>
-  <div class="container">
-      <form action="mailto:tom_tyte@hotmail.com" method="get">
+        </div>
+      </section>
+    
+      <section>
+        <div class="container">
           <div class="row">
               <div class="col">
-                  <div class="products">
-                      <img src="./images/products/aftershave.jpg" alt="">
-                           <p>Aftershave</p>
-                              <input  type="number" class="form-control" id="input1" placeholder="0">
-                  </div>
+                <div class="products">
+                  <img src="./images/products/aftershave.jpg" alt="">
+                  <p>Aftershave</p>
+                  <input  type="number" class="form-control" name="Aftershave" placeholder="0">
+                </div>
               </div>
-
+      
               <div class="col">
                   <div class="products">
                       <img src="./images/products/oil.jpg" alt="">
                       <p>Beard Oil</p>
-                      <input type="number" class="form-control" id="input1" placeholder="0">
+                      <input type="number" class="form-control" name="Beardoil" placeholder="0">
                   </div>
               </div>
-
+      
               <div class="col">
                   <div class="products">
-                      <img src="./images/products/cream.jpg" alt="">
-                          <p>Shaving Cream</p>
-                              <input type="number" class="form-control" id="input1" placeholder="0">
-
+                    <img src="./images/products/cream.jpg" alt="">
+                    <p>Shaving Cream</p>
+                    <input type="number" class="form-control" name="Shavingcream" placeholder="0">
                   </div>
               </div>
           </div>
-      </form>
-  </div>
- 
-    <div class="form-row">
-      <div class="basicinfo">
-        <button type="submit">Send</button>
-          <button type="reset">Clear</button>
+        </div>
+      
+        <div class="form-row">
+          <div class="basicinfo">
+            <button type="submit">Send</button>
+              <button type="reset">Clear</button>
+          </div>
+        </div>
+      </section>
+    </form>
+    </main>
+  </main>
+
+  <footer class="container-fluid">
+      <div class="row footer-color">
+        <div class="col-sm-1 col-md-2 col-lg-4" ></div>
+        <div class=" col-xs-12 col-sm-10 col-md-8 col-lg-4 text-center">
+          <a class="footer-item" href="https://www.linkedin.com/in/thomas-tyte-896661319/" target="_blank">Linkedin</a>
+          <a class="footer-item" href="https://www.facebook.com/thomas.tyte.921/" target="_blank">Facebook</a>
+          <a class="footer-item" href="https://www.linkedin.com/in/thomas-tyte-896661319/" target="_blank">Instagram</a>
+          <a class="footer-item" href="https://www.linkedin.com/in/thomas-tyte-896661319/" target="_blank">Twitter</a>
+        </div>
+        <div class="col-sm-1 col-md-2 col-lg-4"></div>
       </div>
-    </div>
-</section>
-
-
-
-        <footer class="container-fluid">
-            <div class="row footer-color">
-              <div class="col-sm-1 col-md-2 col-lg-4" ></div>
-              <div class=" col-xs-12 col-sm-10 col-md-8 col-lg-4 text-center">
-                <a class="footer-item" href="https://www.linkedin.com/in/thomas-tyte-896661319/" target="_blank">Linkedin</a>
-                <a class="footer-item" href="https://www.facebook.com/thomas.tyte.921/" target="_blank">Facebook</a>
-                <a class="footer-item" href="https://www.linkedin.com/in/thomas-tyte-896661319/" target="_blank">Instagram</a>
-                <a class="footer-item" href="https://www.linkedin.com/in/thomas-tyte-896661319/" target="_blank">Twitter</a>
-              </div>
-              <div class="col-sm-1 col-md-2 col-lg-4"></div>
-            </div>
-          </footer>
-
-
-
+  </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
