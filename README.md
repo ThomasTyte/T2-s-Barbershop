@@ -25,6 +25,6 @@ Technologies Used:
 
 Things I would change or add:
 
-- I woulod like to add another side-by-side carousel.
+- I would like to add another side-by-side carousel.
 - I would like to add a "cart" so the user could combine their order ina simple way.
 - I would like to add a working search-bar to navigate the website.
