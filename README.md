@@ -1,8 +1,6 @@
 ﻿# T2's Barbershop
 
 T2's Barbershop is a new loacation to get your hair cut for men and women of all ages. this website displays styles of haircuts and methods barbers use today. we prodive a list of the hair care products we use in our very own store to keep your hair healthy and ready for the next trim. if your'e not sure what style you would like we provided some pictures and a video of what we can do for you today.
-A user could expect to be able to browse a few photos using the carousel and the youtube video proived. Another user could submit a form with a required name, phone number and email, while being able to submit a specific form about what type of haircut they would like and what time they would like to be seen. Finally another user could browse the products we have to offer and choose as many as they would like and submit them at the bottom of the page.
-I would like to change a few functions about this web-page the first that I would change is the ability to use multiple carousels. I think this Bootstrap feature is very cool and could be useful for displaying relevant information and good pictures specifically for the type of business I presented with this project. The second idea for improvement I would add would be a search bar. Something that could pin-point information throughout the page and also help with navigation. The third change I would make to this page would be an actual submission form that could accept payments on the page, including credit card forms that are secured. I feel that this could help promote business and secure funds for employers who are distributing products and services. I would also like to be able to add a cart option for the products page so that users who are purchasing produts could do it in a more organzied manner.
 
   <img src="./images/Screenshot 2024-09-23 211713.png/" style="width:600px">
   <img src="./images/Screenshot 2024-09-23 211727.png/" style="width:600px">
@@ -10,9 +8,23 @@ I would like to change a few functions about this web-page the first that I woul
   <img src="./images/Screenshot 2024-09-23 211747.png" style="width:600px">
   <img src="./images/Screenshot (6).png" style="width:600px">
 
+User Stories:
+
+- A user can navigate the 3 main pages with the nav-bar located at the top of every page.
+- A user could aslo navigate the Home-Page with a carousel feature diplaying images related to the barbershop theme. On the hompage there is a service list located in the center. There is also a youtube video located at the bottom of the page.
+- A user could use the footer links located at the bottom of every page.
+- A user could use the booking page to submit a form using details about the requested service.
+- The user could navigate the products page, select wanted items and submit the order which is submitted with a send button at the bottom of the page. This sends the information in the "get method" it is displayed at the top of the url.
+
 Technologies Used:
 
 - HTML
 - CSS
 - Bootstrap
 - W3 Html Checker
+
+Things I would change or add:
+
+- I woulod like to add another side-by-side carousel.
+- I would like to add a "cart" so the user could combine their order ina simple way.
+- I would like to add a working search-bar to navigate the website.
